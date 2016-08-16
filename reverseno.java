@@ -17,8 +17,7 @@ n=n/10;
 }
 else
 {
-  System.out.println("negative no")
-}
+  System.out.println("negative no");
 }
 }
 }
