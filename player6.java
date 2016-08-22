@@ -19,6 +19,10 @@ if(out.equals(s2)
 {
 System.out.priintln(true);
 }
+else
+{
+  System.out.println(false);
+}
 }
 else
 {
