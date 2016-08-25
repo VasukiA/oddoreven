@@ -11,7 +11,7 @@ String ans="";
 for(int i=0;i<s1.length;i++)
 {
 s2=s1[i];
-if(i%2!=0)
+if(i%2==0)
 {
 StringBuffer sb=new StringBuffer(s2);
 sb=sb.reverse();
