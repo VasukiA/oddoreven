@@ -9,10 +9,10 @@ int a=sc.nextInt();
 int b=sc.nextInt();
 int c=sc.nextInt();
 if(a>b&&a>c)
-System.out.println("a is gereater"+a);
+System.out.println(a);
 else if(b>a&&b>c)
-System.out.println("b is greater"+b);
+System.out.println(b);
 else
-System.out.println("c is greater"+c);
+System.out.println(c);
 }
 }
