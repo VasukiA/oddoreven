@@ -8,8 +8,8 @@ int n=new Scanner(System.in).nextInt();
 String s=String.valueOf(n);
   String s1=new StringBuffer(s).reverse().toString();
 if(s.equals(s1))
-System.out.println("prime");
+System.out.println("palindrome");
 else
-System.out.println("not a prime");
+System.out.println("not palindrome");
 }
 }
