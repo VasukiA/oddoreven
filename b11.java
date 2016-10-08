@@ -5,13 +5,9 @@ class b11
 public static void main(String args[])
 {
 int n=new Scanner(System.in).nextInt();
-int c=0;
-for(int i=2;i<n;i++)
-{
-if(n%i==0)
-c++;
-}
-if(c==0)
+String s=String.valueOf(n);
+  String s1=new StringBuffer(s).reverse().toString();
+if(s.equals(s1))
 System.out.println("prime");
 else
 System.out.println("not a prime");
